@@ -15,7 +15,7 @@ This project demonstrates an Azure Function application that retrieves movie det
 ### 1. Clone the Repository
 
 ```sh
-git clone https://github.com/your-repo/movie-function-app.git
+https://github.com/gopichandnallani/java-redis-cache.git
 cd java-redis-cache
 ```
 
