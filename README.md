@@ -21,7 +21,7 @@ cd movie-function-app
 
 Configure MySQL
 Create a MySQL database and table using the following SQL script:
-
+```sh
 CREATE DATABASE moviedatabase;
 
 USE moviedatabase;
@@ -37,7 +37,7 @@ INSERT INTO movies (serial_number, actor_name, movie_name, release_year) VALUES
 ('001', 'Robert Downey Jr.', 'Iron Man', 2008),
 ('002', 'Chris Evans', 'Captain America: The First Avenger', 2011),
 ('003', 'Mark Ruffalo', 'The Incredible Hulk', 2008);
-
+```
 
 Update local.settings.json
 Create a local.settings.json file in the root directory of your project with the following content. Replace the placeholder values with your actual configuration:
