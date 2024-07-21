@@ -16,7 +16,7 @@ This project demonstrates an Azure Function application that retrieves movie det
 
 ```sh
 git clone https://github.com/your-repo/movie-function-app.git
-cd movie-function-app
+cd java-redis-cache
 ```
 
 Configure MySQL
