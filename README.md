@@ -41,6 +41,7 @@ INSERT INTO movies (serial_number, actor_name, movie_name, release_year) VALUES
 
 Update local.settings.json
 Create a local.settings.json file in the root directory of your project with the following content. Replace the placeholder values with your actual configuration:
+```json
 {
   "IsEncrypted": false,
   "Values": {
@@ -54,14 +55,14 @@ Create a local.settings.json file in the root directory of your project with the
     "REDIS_PASSWORD": "<your-redis-access-key>"
   }
 }
-
+```
 Build and Run Locally:
-
+```sh
 mvn clean package
 mvn azure-functions:run
-
+```
 To deploy on to azure Function apps;
+```sh
 az login
 mvn azure-functions:deploy
-
-
+```
